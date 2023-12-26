@@ -1,0 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+/* Colors */
+$main: #0C131E;
+$surfaces: #202B3B;
+$items: #36404e;
+$accent: #F15DC6;
+$accent-darker: #d6129d;
+$white: #FFFAFA;
+
+body {
+    background-color: $main;
+    font-family: 'Nunito', sans-serif;
+    color: $white;
+}
