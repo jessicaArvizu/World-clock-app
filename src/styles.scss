@@ -31,14 +31,28 @@ input {
 .clock-app {
     background: $surfaces;
     max-width: 600px;
-    margin: 45px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    margin: 50px auto;
     border-radius: 16px;
     padding: 30px;
 
     .city-row{
+        padding: 30px;
+        border-bottom: 1px solid $items;
+
+        h2{
+            margin: 0;
+            padding: 0;
+        }
+        .col-city{
+            .col-city-date{
+                opacity: 0.5;
+            }
+        }
+
         .col-time{
+            color: $accent;
             text-align: center;
+            font-size: 2.5em;
         }
     }
 }
@@ -46,7 +60,7 @@ input {
 footer {
     margin-top: 30px;
     border-top: 1px solid $items;
-    padding: 30px 0 0 0;
+    padding-top: 20px;
     text-align: center;
     font-size: 12px;
 }
