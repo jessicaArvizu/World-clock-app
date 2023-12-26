@@ -10,12 +10,29 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-10-year-range.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/styles.css" />
 </head>
 
 <body>
     <div class="container clock-app">
-        hola
+        <h1>World Clock</h1>
+
+        <select class="form-select" aria-label="Default select example">
+            <option value="">Select a city..</option>
+            <option value="">London</option>
+            <option value="">New York</option>
+            <option value="">Auckland</option>
+        </select>
+
+        <div class="row city-row">
+            <div class="col-6 col-city d-flex justify-content-start align-items-center">
+                <h2>Los Angeles 🇺🇸</h2>
+            </div>
+            <div class="col-6 col-time">
+                <div class="date">August 15th 2022</div>
+                <div class="time">1:48:15 AM</div>
+            </div>
+        </div>
 
         <footer>
             This project was coded by
