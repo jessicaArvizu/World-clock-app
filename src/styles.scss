@@ -17,6 +17,7 @@ body {
 
 a {
     color: $accent;
+    text-decoration: none;
 
     &:visited {
         color: $accent-darker;
@@ -34,6 +35,11 @@ input {
     margin: 50px auto;
     border-radius: 16px;
     padding: 30px;
+
+    .city-select{
+        background-color: $items;
+        color: $white;
+    }
 
     .city-row{
         padding-top: 30px;

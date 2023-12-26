@@ -9,6 +9,7 @@ body {
 
 a {
   color: #F15DC6;
+  text-decoration: none;
 }
 a:visited {
   color: #d6129d;
@@ -25,6 +26,10 @@ input {
   margin: 50px auto;
   border-radius: 16px;
   padding: 30px;
+}
+.clock-app .city-select {
+  background-color: #36404e;
+  color: #FFFAFA;
 }
 .clock-app .city-row {
   padding-top: 30px;

@@ -27,9 +27,7 @@ This is a solution to the [SheCodes Plus AddOn Final Project](https://www.shecod
   - Select Element with Multiple Locations:
     - A user-friendly select element is implemented, offering a choice of at least three different locations. Users can easily switch between these locations to view the corresponding date and time.
 
-  - Bonus Feature 1: Link to Homepage for Each Location:
-    - As a bonus feature, the application includes a link to the homepage when displaying the details of a specific location. This allows users to quickly access additional information about the city or region.
-  - Bonus Feature 2: User's Current Location:
+  - Bonus Feature: User's Current Location:
     - Another bonus feature enhances user experience by providing the ability to see the date and time of the user's current location. This feature is optional but adds a personalized touch to the application.
 
 ### How to use
