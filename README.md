@@ -46,7 +46,7 @@ This is a solution to the [SheCodes Plus AddOn Final Project](https://www.shecod
 
 ### Links
 
-- Live Site URL: [Weather App](https://dynamic-baklava-e58770.netlify.app)
+- Live Site URL: [World Clock App](https://dynamic-baklava-e58770.netlify.app)
 
 ## My process
 
