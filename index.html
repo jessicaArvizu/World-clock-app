@@ -17,24 +17,17 @@
     <div class="container clock-app shadow">
         <h1>World Clock</h1>
 
-        <select class="form-select">
+        <select id="city-select" class="form-select">
             <option value="">Select a city..</option>
             <option value="current">My current location</option>
-            <option value="los-angeles">Los Angeles</option>
-            <option value="london">London</option>
-            <option value="new-york">New York</option>
-            <option value="auckland">Auckland</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+            <option value="Europe/London">London</option>
+            <option value="America/Mazatlan">Cabo San Lucas</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Australia/Sydney">Sydney</option>
         </select>
 
-        <div id="city-row" class="row city-row">
-            <div class="col-6 col-city">
-                <h2 id="col-city-name" class="col-city-name"></h2>
-                <div id="col-city-date" class="col-city-date"></div>
-            </div>
-            <div class="col-6 col-time">
-                <div id="col-city-time" class="col-city-time"></div>
-            </div>
-        </div>
+        <div id="city-row" class="row city-row"></div>
 
         <footer>
             This project was coded by

@@ -36,9 +36,8 @@ input {
     padding: 30px;
 
     .city-row{
-        padding: 30px;
-        border-bottom: 1px solid $items;
-
+        padding-top: 30px;
+        padding-bottom: 30px;
         h2{
             margin: 0;
             padding: 0;
@@ -58,7 +57,6 @@ input {
 }
 
 footer {
-    margin-top: 30px;
     border-top: 1px solid $items;
     padding-top: 20px;
     text-align: center;

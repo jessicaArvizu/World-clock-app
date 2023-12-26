@@ -1,16 +1,22 @@
-setInterval(function () {
+function updateCity(event) {
+
+    let cityTimeZone = event.target.value;
+    let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+    let cityTime = moment().tz(cityTimeZone).format("h:mm:ss A");
+    let cityDate = moment().tz(cityTimeZone).format(`MMMM, dddd Do`);
     let cityElement = document.querySelector("#city-row");
-    let cityElementName = document.querySelector("#col-city-name");
-    let cityElementDate = document.querySelector("#col-city-date");
-    let cityElementTime = document.querySelector("#col-city-time");
-    let losAngelesTime = moment().tz("America/Los_Angeles");
+    cityElement.innerHTML = `
+    <div class="col-6 col-city">
+        <h2 id="col-city-name" class="col-city-name">${cityName}</h2>
+        <div id="col-city-date" class="col-city-date">${cityDate}</div>
+    </div>
+    <div class="col-6 col-time">
+        <div id="col-city-time" class="col-city-time">${cityTime}</div>
+    </div>`;
+}
 
-    let cityName = "Los Angeles";
-    let cityDate = losAngelesTime.format(`MMMM, dddd Do`);
-    let cityTime = losAngelesTime.format("h:mm:ss [<small>]A[</small>]");
+let citiesSelectElement = document.querySelector("#city-select");
+citiesSelectElement.addEventListener("change", updateCity);
 
-    cityElementName.innerHTML = cityName;
-    cityElementDate.innerHTML = cityDate;
-    cityElementTime.innerHTML = cityTime;
-}, 1000);
+setInterval(updateCity, 1000);
 
