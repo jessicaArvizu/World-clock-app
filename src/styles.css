@@ -27,10 +27,6 @@ input {
   border-radius: 16px;
   padding: 30px;
 }
-.clock-app .city-select {
-  background-color: #36404e;
-  color: #FFFAFA;
-}
 .clock-app .city-row {
   padding-top: 30px;
   padding-bottom: 30px;

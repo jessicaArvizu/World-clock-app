@@ -19,7 +19,6 @@ function updateCity(cityTimeZone) {
 }
 
 let citiesSelectElement = document.querySelector("#city-select");
-citiesSelectElement.value = selectedCity;
 citiesSelectElement.addEventListener("change", function (event) {
     selectedCity = event.target.value;
     updateCity(selectedCity);
